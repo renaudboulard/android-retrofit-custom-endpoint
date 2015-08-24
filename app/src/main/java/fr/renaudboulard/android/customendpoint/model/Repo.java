@@ -5,8 +5,8 @@ import java.io.Serializable;
 /**
  * Created by renaud on 24/08/15.
  */
-public class User implements Serializable {
+public class Repo implements Serializable {
 
-    public String firstname;
-    public String lastname;
+    public String name;
+    public String full_name;
 }

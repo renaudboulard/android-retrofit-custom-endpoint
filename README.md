@@ -3,8 +3,8 @@
 This repository is a example on how to implemente a custom endpoint with retrofit.
 
 For example you have to subdomain with the same API :
- - west.example.com/api 
- - east.example.com/api
+ - http://west.example.com/api 
+ - http://east.example.com/api
  
 and you want to easly switch between these API during the runtime, It's possible without reinstansiate the RestAdapter.
 
@@ -42,22 +42,25 @@ public class CustomEndPoint implements Endpoint {
     }
 }
 ```
+
 Interface:
 ```java
 public interface URLInterface {
     public String getCustomUrl();
 }
 ```
-Implementation :
+
+Implementation depending on a switch button :
 
 ```java
 ..... implements URLInterface{
+
     @Override
     public String getCustomUrl() {
         if(switchButton.isChecked()){
-            return URL_1;
+            return "http://west.example.com";
         }else{
-            return URL_2;
+            return "http://east.example.com";
         }
     }
 

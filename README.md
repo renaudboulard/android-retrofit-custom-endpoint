@@ -11,7 +11,7 @@ and you want to easly switch between these API during the runtime, It's possible
 Simply used a CustomEndPoint
 
 ```java
-  RestAdapter restAdapter = new RestAdapter.Builder()
+RestAdapter restAdapter = new RestAdapter.Builder()
                 .setEndpoint(new CustomEndPoint(this))
                 .build();
 ```

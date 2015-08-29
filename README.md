@@ -2,7 +2,7 @@
 
 This repository is a example on how to implemente a custom endpoint with retrofit.
 
-For example you have to subdomain with the same API :
+For example you have two subdomain with the same API :
  - http://west.example.com/api 
  - http://east.example.com/api
  

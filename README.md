@@ -50,7 +50,7 @@ public interface URLInterface {
 }
 ```
 
-Implementation depending on a switch button :
+Implementation depending on a switch button in your interface :
 
 ```java
 ..... implements URLInterface{

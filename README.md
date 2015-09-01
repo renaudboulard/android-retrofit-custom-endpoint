@@ -66,4 +66,4 @@ Implementation depending on a switch button in your interface :
 
 }
 ```
- 
+It could be also useful if you want to switch between your Qualif and Production server during the runtime, in a demo application or in test application.

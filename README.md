@@ -44,6 +44,7 @@ public class CustomEndPoint implements Endpoint {
 ```
 
 Interface:
+
 ```java
 public interface URLInterface {
     public String getCustomUrl();

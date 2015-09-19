@@ -1,6 +1,6 @@
 # Retrofit with dynamic endpoint
 
-This repository is a example on how to implemente a custom endpoint with retrofit.
+This repository is a example on how to implemente a custom endpoint with retrofit. (http://square.github.io/retrofit/)
 
 For example you have two subdomain with the same API :
  - http://west.example.com/api 
